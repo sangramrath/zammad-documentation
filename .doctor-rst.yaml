@@ -1,0 +1,52 @@
+rules:
+    american_english: ~
+    avoid_repetetive_words: ~
+    blank_line_after_anchor: ~
+    blank_line_after_directive: ~
+    blank_line_before_directive: ~
+    composer_dev_option_not_at_the_end: ~
+    correct_code_block_directive_based_on_the_content: ~
+    deprecated_directive_should_have_version: ~
+    ensure_exactly_one_space_before_directive_type: ~
+    ensure_exactly_one_space_between_link_definition_and_link: ~
+    ensure_link_definition_contains_valid_url: ~
+    ensure_order_of_code_blocks_in_configuration_block: ~
+    extend_abstract_controller: ~
+    extension_xlf_instead_of_xliff: ~
+    indention:
+        size: 3
+    lowercase_as_in_use_statements: ~
+    max_blank_lines:
+        max: 2
+    max_colons: ~
+    no_app_console: ~
+    no_brackets_in_method_directive: ~
+    no_composer_req: ~
+    no_directive_after_shorthand: ~
+    no_inheritdoc: ~
+    no_namespace_after_use_statements: ~
+    no_space_before_self_xml_closing_tag: ~
+    ordered_use_statements: ~
+    replace_code_block_types: ~
+    replacement: ~
+    short_array_syntax: ~
+    space_between_label_and_link_in_doc: ~
+    space_between_label_and_link_in_ref: ~
+    string_replacement: ~
+    typo: ~
+    unused_links: ~
+    use_deprecated_directive_instead_of_versionadded: ~
+    use_https_xsd_urls: ~
+    valid_inline_highlighted_namespaces: ~
+    valid_use_statements: ~
+    versionadded_directive_should_have_version: ~
+    yaml_instead_of_yml_suffix: ~
+    yarn_dev_option_at_the_end: ~
+    line_length: ~
+
+# do not report as violation
+whitelist:
+    regex:
+        - '/``.yml``/'
+        - /docker-compose\.yml/
+    lines:
