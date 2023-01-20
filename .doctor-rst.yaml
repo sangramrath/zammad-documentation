@@ -49,4 +49,5 @@ whitelist:
     regex:
         - '/``.yml``/'
         - /docker-compose\.yml/
+        - '/(\s+).. code-block::\s.*?\n\n(?:\1\s{3}.+?\n|\n)+/'
     lines:
