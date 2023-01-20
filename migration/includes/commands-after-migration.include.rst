@@ -1,4 +1,5 @@
-After the import has finished, run the following commands
+**After the import has finished, run the following commands**
+
    .. code-block:: ruby
       :force:
 

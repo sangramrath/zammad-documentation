@@ -24,8 +24,7 @@ These are additional limitations to the
    * User passwords are not migrated and will require the user to use the
      `password reset link`_ on the login page.
 
-.. _password reset link:
-   https://admin-docs.zammad.org/en/latest/settings/security/base.html#lost-password
+.. _password reset link: https://admin-docs.zammad.org/en/latest/settings/security/base.html#lost-password
 
    .. note::
 
@@ -80,6 +79,7 @@ consider using the console over the browser version.
       .. include:: /migration/includes/rails-console-migrator-hint.include.rst
 
       To prepare the migration, run the following commands
+
          .. code-block:: ruby
             :force:
 
@@ -276,8 +276,7 @@ note that you want to adjust your `FQDN settings`_ (FQDN & HTTP-Type).
    All other users will have to use the password reset function or login methods
    like LDAP or one click logins.
    
-.. _FQDN settings:
-   https://admin-docs.zammad.org/en/latest/settings/system/base.html
+.. _FQDN settings: https://admin-docs.zammad.org/en/latest/settings/system/base.html
 
 After successfully migrating your Kayako instance, 
 continue with :doc:`/getting-started/first-steps`.
